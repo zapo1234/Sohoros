@@ -23,7 +23,7 @@ class CategoriesRepository implements CategoriesRepositoryInterface {
 
   public function  getAll(){
 
-   $this->model->all();
+   return Categories::all();
 
   }
 
@@ -54,6 +54,9 @@ class CategoriesRepository implements CategoriesRepositoryInterface {
 
     return true;
  }
+
+
+ 
 
  }
 

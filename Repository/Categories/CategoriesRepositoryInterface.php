@@ -19,12 +19,9 @@ interface CategoriesRepositoryInterface
 
   public function delete($id);
 
+  
+
 }
-
-
-
-
-
 
 
 ?>
